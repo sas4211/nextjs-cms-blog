@@ -1,9 +1,3 @@
-# Build a Blog with Next.js 14 and Sanity CMS - Repository from my YouTube tutorial
-
-[![Video](https://github.com/stefandjikic/next-cms-blog/assets/65912958/2576b109-d592-4321-9870-0db29d769a3e)
-](https://www.youtube.com/watch?v=yAqgjSZ0PqY)
-
-
 ## Technologies used
 
 - [Next.js](https://nextjs.org/)
@@ -14,21 +8,7 @@
 
 
 ## Getting Started
-
-First, add your Sanity project ID and dataset name to the `.env.local` file:
-
-```bash
-NEXT_PUBLIC_SANITY_PROJECT_ID=your_project_id
-NEXT_PUBLIC_SANITY_DATASET=your_dataset_name
-```
-
-If you want to have comments system, you need to add your Sanity API token to the `.env.local` file:
-
-```bash
-NEXT_PUBLIC_SANITY_TOKEN=your_api_token
-```
-
-Then, install the dependencies:
+Install the dependencies:
   
 ```bash
 npm install
